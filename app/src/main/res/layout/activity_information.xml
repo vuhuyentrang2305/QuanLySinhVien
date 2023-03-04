@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f5f5f5"
+    android:orientation="vertical"
+    tools:context=".ActivityInformation">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:layout_marginBottom="30dp">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="422dp"
+            android:layout_height="486dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/top_bcakground"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="-221dp" />
+
+        <ImageView
+            android:id="@+id/imgBackHomeInf"
+            android:layout_width="30dp"
+            android:layout_height="26dp"
+            android:src="@drawable/back"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.018"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.198"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INFOMATION "
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.322"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Học Viện Công Nghệ BKACAD "
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.707"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="173dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/inforbkacad" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textSize="12dp"
+            android:text="Chương trình Học viện Công nghệ BKACAD - Đại học Bách Khoa Hà Nội thông tin các phương thức tuyển sinh chương trình BTEC năm 2023. Theo đó, có 4 phương thức ổn định và tuyển sinh các chương trình đào tạo thích ứng với bối cảnh của cuộc cách mạng công nghệ 4.0." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:textSize="10dp"
+            android:text="Chương trình BTEC Bách Khoa Hà Nội nằm trong khuôn khổ hợp tác giữa Đại học Bách Khoa Hà Nội với Tổ chức giáo dục Pearson Education. Chương trình hướng tới đào tạo toàn diện, chú trọng kỹ năng ngoại ngữ và kỹ năng nghề nghiệp nhằm cung ứng nguồn nhân lực chất lượng cao cho xã hội. Theo Quyết định số 1296/QĐ-ĐHBK,  Đại học Bách Khoa Hà Nội giao cho hai đơn vị thành viên trong Hệ thống BK-Holdings của trường là Chương trình Học viện Công nghệ BKACAD và Trường Cao đẳng nghề Bách Khoa Hà Nội (HACTECH) cùng phối hợp triển khai Chương trình hợp tác." />
+    </LinearLayout>
+
+
+</LinearLayout>

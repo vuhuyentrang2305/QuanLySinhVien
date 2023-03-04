@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_list"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="245dp"
+        android:layout_marginTop="10dp">
+    <TextView
+       android:id="@+id/txtlop"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:background="@drawable/tron"
+       android:text="Java"
+       android:gravity="center"
+       android:textSize="20dp"
+       android:textColor="@color/black"></TextView>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:orientation="vertical">
+       <TextView
+           android:id="@+id/txtTen"
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:text="Trang"
+           android:textSize="20dp"
+           android:gravity="center_vertical"></TextView>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="60dp">
+
+           <ImageView
+               android:id="@+id/imgGT"
+               android:layout_width="77dp"
+               android:layout_marginRight="10dp"
+               android:layout_height="match_parent"
+               android:src="@drawable/girl"></ImageView>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+               <TextView
+                   android:id="@+id/txtSDT"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="1234567"></TextView>
+
+               <TextView
+                   android:id="@+id/txtEmail"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:text="1234567"></TextView>
+
+           </LinearLayout>
+       </LinearLayout>
+   </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
